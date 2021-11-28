@@ -1,0 +1,147 @@
+body {
+    background-color: #fff;
+    color: #243238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    min-width: 320px;
+    overflow: hidden;
+    width: 100%;
+}
+.account-login{
+    padding-top: 100px;
+}
+.account-login .form-group .form-control {
+    padding: 0 18px;
+    -webkit-transition: color .25s,background-color .25s,border-color .25s;
+    transition: color .25s,background-color .25s,border-color .25s;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    color: #505050;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 46px;
+    border-radius: 4px!important;
+    overflow: hidden;
+    width: 100%;
+}
+.button .btn:last-child {
+    margin: 0;
+}
+.button {
+    padding-top: 20px;
+}
+.button .btn {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 30px;
+    background-color: #0167f3;
+    color: #fff;
+    border: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+}
+.account-login .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+/* Pagination */
+.pull-right {
+    float: right!important;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.pagination>li {
+    display: inline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Menu CSS */
+.sidebar-wrapper .menu {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    font-weight: 600;
+   
+}
+.sidebar-wrapper .menu .sidebar-title {
+    padding: 0 1rem;
+    margin: 1.5rem 0 1rem;
+    font-size: 1rem;
+    list-style: none;
+    font-weight: 600;
+    color: #25396f;
+    border-bottom: 1px solid black;
+    
+}
+.sidebar-wrapper .menu a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar-wrapper .menu a .active{
+    background-color: white;
+}
+.sidebar-wrapper .menu a li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.sidebar-wrapper .menu .sidebar-link {
+    display: block;
+    padding: .7rem 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    transition: all .5s;
+    text-decoration: none;
+}
